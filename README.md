@@ -2,14 +2,11 @@
 
 Edit images directly from the TYPO3 backend file list using the open-source
 [Filerobot Image Editor](https://github.com/scaleflex/filerobot-image-editor).
-xx
-<video src="https://www.youtube.com/watch?v=M8iOw8A41dg&feature=youtu.be" width="80%" controls></video>
-xx
-<video src="https://www.youtube.com/watch?v=M8iOw8A41dg&feature=youtu.be" width="320" height="240" controls></video>
 
-or
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/video-id](https://youtu.be/M8iOw8A41dg)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://github.com/user-attachments/assets/f55b08f4-2b14-45a8-9c38-6706451d4991
+
+
 
 ## 📦 Setup
 
