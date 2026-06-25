@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="ie-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A9FD6"/>
+      <stop offset="1" stop-color="#1F7AAE"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="url(#ie-bg)"/>
+  <!-- photo frame -->
+  <rect x="11" y="13" width="38" height="29" rx="4" fill="#FFFFFF"/>
+  <!-- sun -->
+  <circle cx="20" cy="23" r="3.6" fill="#FFB02E"/>
+  <!-- mountains -->
+  <path d="M11 38v-1l8-10 7 8 6-6 11 12v1a3 3 0 0 1-3 3H14a3 3 0 0 1-3-3Z" fill="#2A9FD6"/>
+  <!-- edit pencil badge, bottom-right -->
+  <g transform="rotate(45 44 45)">
+    <rect x="40" y="29" width="8" height="24" rx="2" fill="#FFB02E"/>
+    <rect x="40" y="29" width="8" height="5" rx="2" fill="#F0F0F0"/>
+    <path d="M40 53h8l-4 7Z" fill="#FFE7C2"/>
+    <path d="M42.4 56.8h3.2L44 60Z" fill="#2B2B2B"/>
+  </g>
+</svg>

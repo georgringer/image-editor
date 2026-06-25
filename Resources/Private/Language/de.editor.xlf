@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2026-06-18T00:00:00Z" product-name="image_editor">
+		<header/>
+		<body>
+			<trans-unit id="name">
+				<source>Name</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="save">
+				<source>Save</source>
+				<target>Speichern</target>
+			</trans-unit>
+			<trans-unit id="saveAs">
+				<source>Save as</source>
+				<target>Speichern unter</target>
+			</trans-unit>
+			<trans-unit id="back">
+				<source>Back</source>
+				<target>Zurück</target>
+			</trans-unit>
+			<trans-unit id="loading">
+				<source>Loading...</source>
+				<target>Lädt …</target>
+			</trans-unit>
+			<trans-unit id="resetOperations">
+				<source>Reset/delete all operations</source>
+				<target>Alle Bearbeitungen zurücksetzen/löschen</target>
+			</trans-unit>
+			<trans-unit id="changesLoseWarningHint">
+				<source>If you press button "reset" your changes will lost. Would you like to continue?</source>
+				<target>Wenn Sie auf „Zurücksetzen“ klicken, gehen Ihre Änderungen verloren. Möchten Sie fortfahren?</target>
+			</trans-unit>
+			<trans-unit id="discardChangesWarningHint">
+				<source>If you close modal, your last change will not be saved.</source>
+				<target>Wenn Sie das Fenster schließen, wird Ihre letzte Änderung nicht gespeichert.</target>
+			</trans-unit>
+			<trans-unit id="cancel">
+				<source>Cancel</source>
+				<target>Abbrechen</target>
+			</trans-unit>
+			<trans-unit id="apply">
+				<source>Apply</source>
+				<target>Anwenden</target>
+			</trans-unit>
+			<trans-unit id="warning">
+				<source>Warning</source>
+				<target>Warnung</target>
+			</trans-unit>
+			<trans-unit id="confirm">
+				<source>Confirm</source>
+				<target>Bestätigen</target>
+			</trans-unit>
+			<trans-unit id="discardChanges">
+				<source>Discard changes</source>
+				<target>Änderungen verwerfen</target>
+			</trans-unit>
+			<trans-unit id="undoTitle">
+				<source>Undo last operation</source>
+				<target>Letzte Aktion rückgängig machen</target>
+			</trans-unit>
+			<trans-unit id="redoTitle">
+				<source>Redo last operation</source>
+				<target>Letzte Aktion wiederholen</target>
+			</trans-unit>
+			<trans-unit id="showImageTitle">
+				<source>Show original image</source>
+				<target>Originalbild anzeigen</target>
+			</trans-unit>
+			<trans-unit id="zoomInTitle">
+				<source>Zoom in</source>
+				<target>Vergrößern</target>
+			</trans-unit>
+			<trans-unit id="zoomOutTitle">
+				<source>Zoom out</source>
+				<target>Verkleinern</target>
+			</trans-unit>
+			<trans-unit id="toggleZoomMenuTitle">
+				<source>Toggle zoom menu</source>
+				<target>Zoom-Menü umschalten</target>
+			</trans-unit>
+			<trans-unit id="adjustTab">
+				<source>Adjust</source>
+				<target>Anpassen</target>
+			</trans-unit>
+			<trans-unit id="finetuneTab">
+				<source>Finetune</source>
+				<target>Feinabstimmung</target>
+			</trans-unit>
+			<trans-unit id="filtersTab">
+				<source>Filters</source>
+				<target>Filter</target>
+			</trans-unit>
+			<trans-unit id="watermarkTab">
+				<source>Watermark</source>
+				<target>Wasserzeichen</target>
+			</trans-unit>
+			<trans-unit id="annotateTabLabel">
+				<source>Annotate</source>
+				<target>Anmerken</target>
+			</trans-unit>
+			<trans-unit id="resize">
+				<source>Resize</source>
+				<target>Größe ändern</target>
+			</trans-unit>
+			<trans-unit id="resizeTab">
+				<source>Resize</source>
+				<target>Größe ändern</target>
+			</trans-unit>
+			<trans-unit id="imageName">
+				<source>Image name</source>
+				<target>Bildname</target>
+			</trans-unit>
+			<trans-unit id="invalidImageError">
+				<source>Invalid image provided.</source>
+				<target>Ungültiges Bild angegeben.</target>
+			</trans-unit>
+			<trans-unit id="uploadImageError">
+				<source>Error while uploading the image.</source>
+				<target>Fehler beim Hochladen des Bildes.</target>
+			</trans-unit>
+			<trans-unit id="areNotImages">
+				<source>are not images</source>
+				<target>sind keine Bilder</target>
+			</trans-unit>
+			<trans-unit id="isNotImage">
+				<source>is not image</source>
+				<target>ist kein Bild</target>
+			</trans-unit>
+			<trans-unit id="toBeUploaded">
+				<source>to be uploaded</source>
+				<target>wird hochgeladen</target>
+			</trans-unit>
+			<trans-unit id="cropTool">
+				<source>Crop</source>
+				<target>Zuschneiden</target>
+			</trans-unit>
+			<trans-unit id="original">
+				<source>Original</source>
+				<target>Original</target>
+			</trans-unit>
+			<trans-unit id="custom">
+				<source>Custom</source>
+				<target>Benutzerdefiniert</target>
+			</trans-unit>
+			<trans-unit id="square">
+				<source>Square</source>
+				<target>Quadrat</target>
+			</trans-unit>
+			<trans-unit id="landscape">
+				<source>Landscape</source>
+				<target>Querformat</target>
+			</trans-unit>
+			<trans-unit id="portrait">
+				<source>Portrait</source>
+				<target>Hochformat</target>
+			</trans-unit>
+			<trans-unit id="ellipse">
+				<source>Ellipse</source>
+				<target>Ellipse</target>
+			</trans-unit>
+			<trans-unit id="classicTv">
+				<source>Classic TV</source>
+				<target>Klassisches TV</target>
+			</trans-unit>
+			<trans-unit id="cinemascope">
+				<source>Cinemascope</source>
+				<target>Cinemascope</target>
+			</trans-unit>
+			<trans-unit id="arrowTool">
+				<source>Arrow</source>
+				<target>Pfeil</target>
+			</trans-unit>
+			<trans-unit id="blurTool">
+				<source>Blur</source>
+				<target>Weichzeichnen</target>
+			</trans-unit>
+			<trans-unit id="brightnessTool">
+				<source>Brightness</source>
+				<target>Helligkeit</target>
+			</trans-unit>
+			<trans-unit id="contrastTool">
+				<source>Contrast</source>
+				<target>Kontrast</target>
+			</trans-unit>
+			<trans-unit id="ellipseTool">
+				<source>Ellipse</source>
+				<target>Ellipse</target>
+			</trans-unit>
+			<trans-unit id="unFlipX">
+				<source>Un-Flip X</source>
+				<target>X-Spiegelung aufheben</target>
+			</trans-unit>
+			<trans-unit id="flipX">
+				<source>Flip X</source>
+				<target>Horizontal spiegeln</target>
+			</trans-unit>
+			<trans-unit id="unFlipY">
+				<source>Un-Flip Y</source>
+				<target>Y-Spiegelung aufheben</target>
+			</trans-unit>
+			<trans-unit id="flipY">
+				<source>Flip Y</source>
+				<target>Vertikal spiegeln</target>
+			</trans-unit>
+			<trans-unit id="hsvTool">
+				<source>HSV</source>
+				<target>HSV</target>
+			</trans-unit>
+			<trans-unit id="hue">
+				<source>Hue</source>
+				<target>Farbton</target>
+			</trans-unit>
+			<trans-unit id="brightness">
+				<source>Brightness</source>
+				<target>Helligkeit</target>
+			</trans-unit>
+			<trans-unit id="saturation">
+				<source>Saturation</source>
+				<target>Sättigung</target>
+			</trans-unit>
+			<trans-unit id="value">
+				<source>Value</source>
+				<target>Hellwert</target>
+			</trans-unit>
+			<trans-unit id="imageTool">
+				<source>Image</source>
+				<target>Bild</target>
+			</trans-unit>
+			<trans-unit id="importing">
+				<source>Importing...</source>
+				<target>Importiert …</target>
+			</trans-unit>
+			<trans-unit id="addImage">
+				<source>+ Add image</source>
+				<target>+ Bild hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="uploadImage">
+				<source>Upload image</source>
+				<target>Bild hochladen</target>
+			</trans-unit>
+			<trans-unit id="fromGallery">
+				<source>From gallery</source>
+				<target>Aus Galerie</target>
+			</trans-unit>
+			<trans-unit id="lineTool">
+				<source>Line</source>
+				<target>Linie</target>
+			</trans-unit>
+			<trans-unit id="penTool">
+				<source>Pen</source>
+				<target>Stift</target>
+			</trans-unit>
+			<trans-unit id="polygonTool">
+				<source>Polygon</source>
+				<target>Polygon</target>
+			</trans-unit>
+			<trans-unit id="sides">
+				<source>Sides</source>
+				<target>Seiten</target>
+			</trans-unit>
+			<trans-unit id="rectangleTool">
+				<source>Rectangle</source>
+				<target>Rechteck</target>
+			</trans-unit>
+			<trans-unit id="cornerRadius">
+				<source>Corner Radius</source>
+				<target>Eckenradius</target>
+			</trans-unit>
+			<trans-unit id="resizeWidthTitle">
+				<source>Width in pixels</source>
+				<target>Breite in Pixel</target>
+			</trans-unit>
+			<trans-unit id="resizeHeightTitle">
+				<source>Height in pixels</source>
+				<target>Höhe in Pixel</target>
+			</trans-unit>
+			<trans-unit id="toggleRatioLockTitle">
+				<source>Toggle ratio lock</source>
+				<target>Seitenverhältnis sperren</target>
+			</trans-unit>
+			<trans-unit id="resetSize">
+				<source>Reset to original image size</source>
+				<target>Auf Originalgröße zurücksetzen</target>
+			</trans-unit>
+			<trans-unit id="rotateTool">
+				<source>Rotate</source>
+				<target>Drehen</target>
+			</trans-unit>
+			<trans-unit id="textTool">
+				<source>Text</source>
+				<target>Text</target>
+			</trans-unit>
+			<trans-unit id="textSpacings">
+				<source>Text spacings</source>
+				<target>Textabstände</target>
+			</trans-unit>
+			<trans-unit id="textAlignment">
+				<source>Text alignment</source>
+				<target>Textausrichtung</target>
+			</trans-unit>
+			<trans-unit id="fontFamily">
+				<source>Font family</source>
+				<target>Schriftart</target>
+			</trans-unit>
+			<trans-unit id="size">
+				<source>Size</source>
+				<target>Größe</target>
+			</trans-unit>
+			<trans-unit id="letterSpacing">
+				<source>Letter Spacing</source>
+				<target>Zeichenabstand</target>
+			</trans-unit>
+			<trans-unit id="lineHeight">
+				<source>Line height</source>
+				<target>Zeilenhöhe</target>
+			</trans-unit>
+			<trans-unit id="warmthTool">
+				<source>Warmth</source>
+				<target>Wärme</target>
+			</trans-unit>
+			<trans-unit id="addWatermark">
+				<source>+ Add watermark</source>
+				<target>+ Wasserzeichen hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="addTextWatermark">
+				<source>+ Add text watermark</source>
+				<target>+ Text-Wasserzeichen hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="addWatermarkTitle">
+				<source>Choose the watermark type</source>
+				<target>Wasserzeichentyp auswählen</target>
+			</trans-unit>
+			<trans-unit id="uploadWatermark">
+				<source>Upload watermark</source>
+				<target>Wasserzeichen hochladen</target>
+			</trans-unit>
+			<trans-unit id="addWatermarkAsText">
+				<source>Add as text</source>
+				<target>Als Text hinzufügen</target>
+			</trans-unit>
+			<trans-unit id="padding">
+				<source>Padding</source>
+				<target>Innenabstand</target>
+			</trans-unit>
+			<trans-unit id="paddings">
+				<source>Paddings</source>
+				<target>Innenabstände</target>
+			</trans-unit>
+			<trans-unit id="shadow">
+				<source>Shadow</source>
+				<target>Schatten</target>
+			</trans-unit>
+			<trans-unit id="horizontal">
+				<source>Horizontal</source>
+				<target>Horizontal</target>
+			</trans-unit>
+			<trans-unit id="vertical">
+				<source>Vertical</source>
+				<target>Vertikal</target>
+			</trans-unit>
+			<trans-unit id="blur">
+				<source>Blur</source>
+				<target>Weichzeichnen</target>
+			</trans-unit>
+			<trans-unit id="opacity">
+				<source>Opacity</source>
+				<target>Deckkraft</target>
+			</trans-unit>
+			<trans-unit id="transparency">
+				<source>Transparency</source>
+				<target>Transparenz</target>
+			</trans-unit>
+			<trans-unit id="position">
+				<source>Position</source>
+				<target>Position</target>
+			</trans-unit>
+			<trans-unit id="stroke">
+				<source>Stroke</source>
+				<target>Kontur</target>
+			</trans-unit>
+			<trans-unit id="saveAsModalTitle">
+				<source>Save as</source>
+				<target>Speichern unter</target>
+			</trans-unit>
+			<trans-unit id="extension">
+				<source>Extension</source>
+				<target>Dateiendung</target>
+			</trans-unit>
+			<trans-unit id="format">
+				<source>Format</source>
+				<target>Format</target>
+			</trans-unit>
+			<trans-unit id="nameIsRequired">
+				<source>Name is required.</source>
+				<target>Name ist erforderlich.</target>
+			</trans-unit>
+			<trans-unit id="quality">
+				<source>Quality</source>
+				<target>Qualität</target>
+			</trans-unit>
+			<trans-unit id="imageDimensionsHoverTitle">
+				<source>Saved image size (width x height)</source>
+				<target>Gespeicherte Bildgröße (Breite × Höhe)</target>
+			</trans-unit>
+			<trans-unit id="cropSizeLowerThanResizedWarning">
+				<source>Note, the selected crop area is lower than the applied resize which might cause quality decrease</source>
+				<target>Hinweis: Der gewählte Zuschnittbereich ist kleiner als die angewendete Größenänderung, was zu Qualitätsverlust führen kann.</target>
+			</trans-unit>
+			<trans-unit id="actualSize">
+				<source>Actual size (100%)</source>
+				<target>Tatsächliche Größe (100 %)</target>
+			</trans-unit>
+			<trans-unit id="fitSize">
+				<source>Fit size</source>
+				<target>Einpassen</target>
+			</trans-unit>
+			<trans-unit id="addImageTitle">
+				<source>Select image to add...</source>
+				<target>Bild zum Hinzufügen auswählen …</target>
+			</trans-unit>
+			<trans-unit id="mutualizedFailedToLoadImg">
+				<source>Failed to load image.</source>
+				<target>Bild konnte nicht geladen werden.</target>
+			</trans-unit>
+			<trans-unit id="tabsMenu">
+				<source>Menu</source>
+				<target>Menü</target>
+			</trans-unit>
+			<trans-unit id="download">
+				<source>Download</source>
+				<target>Herunterladen</target>
+			</trans-unit>
+			<trans-unit id="width">
+				<source>Width</source>
+				<target>Breite</target>
+			</trans-unit>
+			<trans-unit id="height">
+				<source>Height</source>
+				<target>Höhe</target>
+			</trans-unit>
+			<trans-unit id="plus">
+				<source>+</source>
+				<target>+</target>
+			</trans-unit>
+			<trans-unit id="cropItemNoEffect">
+				<source>No preview available for this crop item</source>
+				<target>Für dieses Zuschnitt-Element ist keine Vorschau verfügbar</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

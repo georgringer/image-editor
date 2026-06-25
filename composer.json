@@ -1,0 +1,40 @@
+{
+    "name": "georgringer/image-editor",
+    "description": "Edit images directly in the TYPO3 file list using the Filerobot Image Editor.",
+    "license": "GPL-2.0-or-later",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "typo3/cms-backend": "^13.4 || ^14.3",
+        "typo3/cms-filelist": "^13.4 || ^14.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\ImageEditor\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeorgRinger\\ImageEditor\\Tests\\": "Tests"
+        }
+    },
+    "scripts": {
+        "build:install": "cd Build && npm ci",
+        "build:update": "cd Build && npm update && npm run build"
+    },
+    "scripts-descriptions": {
+        "build:install": "Install the npm dependencies for the Filerobot bundle (clean install from the lockfile) in Build/.",
+        "build:update": "Update the Filerobot npm dependencies and rebuild the vendored bundle."
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "image_editor"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="messages" date="2026-06-18T00:00:00Z" product-name="image_editor">
+		<header/>
+		<body>
+			<trans-unit id="contextMenu.editImage">
+				<source>Edit image</source>
+			</trans-unit>
+			<trans-unit id="editor.title">
+				<source>Image Editor</source>
+			</trans-unit>
+			<trans-unit id="save.dialog.title">
+				<source>Save a copy</source>
+			</trans-unit>
+			<trans-unit id="save.dialog.filename">
+				<source>File name</source>
+			</trans-unit>
+			<trans-unit id="save.dialog.cancel">
+				<source>Cancel</source>
+			</trans-unit>
+			<trans-unit id="save.dialog.submit">
+				<source>Save copy</source>
+			</trans-unit>
+			<trans-unit id="save.success">
+				<source>Image saved</source>
+			</trans-unit>
+			<trans-unit id="save.error">
+				<source>Could not save image</source>
+			</trans-unit>
+			<trans-unit id="save.error.unexpected">
+				<source>An unexpected error occurred.</source>
+			</trans-unit>
+			<trans-unit id="conflict.title">
+				<source>File already exists</source>
+			</trans-unit>
+			<trans-unit id="conflict.message">
+				<source>A file named %s already exists in this folder.</source>
+			</trans-unit>
+			<trans-unit id="conflict.hint">
+				<source>Overwrite it, or save the edited image under a new (renamed) file?</source>
+			</trans-unit>
+			<trans-unit id="conflict.rename">
+				<source>Rename</source>
+			</trans-unit>
+			<trans-unit id="conflict.overwrite">
+				<source>Overwrite</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

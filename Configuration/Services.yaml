@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    GeorgRinger\ImageEditor\:
+        resource: '../Classes/*'
+
+    GeorgRinger\ImageEditor\ContextMenu\ItemProvider:
+        tags:
+            - name: backend.contextmenu.itemprovider

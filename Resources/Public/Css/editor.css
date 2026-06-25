@@ -1,0 +1,6 @@
+#image-editor {
+    position: relative;
+    height: calc(100vh - 120px);
+    min-height: 600px;
+    width: 100%;
+}

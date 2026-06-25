@@ -1,0 +1,24 @@
+{
+  "name": "@georgringer/image-editor-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build pipeline for the bundled Filerobot Image Editor used by the TYPO3 extension image_editor.",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "node esbuild.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "filerobot-image-editor": ">=5.0.0-0 <6.0.0-0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-filerobot-image-editor": ">=5.0.0-0 <6.0.0-0",
+    "react-konva": "^19.0.3",
+    "styled-components": "^5.3.11"
+  },
+  "overrides": {
+    "filerobot-image-editor": {
+      "react-filerobot-image-editor": ">=5.0.0-0 <6.0.0-0"
+    }
+  }
+}

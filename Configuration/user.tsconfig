@@ -1,0 +1,10 @@
+# Enables the "Edit image" context menu entry. Set to 0 (per user/group) to disable.
+options.imageEditor.enable = 1
+
+# Editor tabs/tools to show, comma-separated. Available: adjust, finetune,
+# filters, annotate, resize, watermark. Default (all but watermark):
+# options.imageEditor.tabs = adjust,finetune,filters,annotate,resize
+
+# Additional crop aspect-ratio presets, appended to Filerobot's built-in menu.
+# Comma-separated tokens "W:H" or "Label=W:H":
+#options.imageEditor.cropPresets = 21:9, 5:4, Cinemascope=21:9, Story=9:16
