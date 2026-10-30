@@ -40,7 +40,7 @@ final class ImagePersistenceServiceTest extends FunctionalTestCase
     {
         $original = $this->createOriginalFile('photo.png');
 
-        $new = $this->service()->saveCopy($original, 'edited-binary', 'my-edit');
+        $new = $this->service()->saveCopy($original, $this->imageBytes('png'),'my-edit');
 
         self::assertSame('my-edit.png', $new->getName());
         self::assertTrue($this->folder->hasFile('my-edit.png'));
@@ -52,7 +52,7 @@ final class ImagePersistenceServiceTest extends FunctionalTestCase
         $original = $this->createOriginalFile('photo.png');
 
         // Desired name equals an existing file -> RENAME must auto-increment.
-        $new = $this->service()->saveCopy($original, 'edited-binary', 'photo');
+        $new = $this->service()->saveCopy($original, $this->imageBytes('png'),'photo');
 
         self::assertSame('photo_01.png', $new->getName());
     }
@@ -62,7 +62,7 @@ final class ImagePersistenceServiceTest extends FunctionalTestCase
     {
         $original = $this->createOriginalFile('photo.png');
 
-        $new = $this->service()->saveCopy($original, 'edited-binary', 'name.webp');
+        $new = $this->service()->saveCopy($original, $this->imageBytes('png'),'name.webp');
 
         self::assertSame('name.png', $new->getName());
     }
