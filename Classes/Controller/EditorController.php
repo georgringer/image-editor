@@ -15,6 +15,8 @@ use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Resource\Exception\InsufficientFileAccessPermissionsException;
 use TYPO3\CMS\Core\Resource\File;
 use TYPO3\CMS\Core\Resource\ResourceFactory;
+use TYPO3\CMS\Core\Security\ContentSecurityPolicy\ConsumableNonce;
+use TYPO3\CMS\Core\Security\ContentSecurityPolicy\Directive;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
@@ -58,6 +60,18 @@ final readonly class EditorController
         $this->pageRenderer->addJsFile(
             'EXT:image_editor/Resources/Public/JavaScript/Vendor/filerobot-image-editor.bundle.js'
         );
+        // styled-components (bundled with Filerobot) injects <style> elements at runtime. The backend
+        // CSP allows those only with a nonce, which styled-components reads from __webpack_nonce__.
+        $nonce = $request->getAttribute('nonce');
+        if ($nonce instanceof ConsumableNonce) {
+            $this->pageRenderer->addJsInlineCode(
+                'image-editor-csp-nonce',
+                'window.__webpack_nonce__ = ' . json_encode($nonce->consumeInline(Directive::StyleSrcElem)) . ';',
+                false,
+                false,
+                true
+            );
+        }
         $this->pageRenderer->loadJavaScriptModule('@georgringer/image-editor/editor.js');
 
         $view = $this->moduleTemplateFactory->create($request);
