@@ -21,7 +21,9 @@ class ImageEditor {
       return;
     }
 
-    this.returnUrl = this.el.dataset.returnUrl ? decodeURIComponent(this.el.dataset.returnUrl) : '';
+    // The returnUrl query argument is already decoded by PHP. Decoding it again breaks folder
+    // names containing "%" (URIError, the editor stays empty) or "&" (wrong folder after saving).
+    this.returnUrl = this.el.dataset.returnUrl || '';
     this.target = this.el.dataset.target;
     this.folder = this.el.dataset.folder;
     this.filename = this.el.dataset.filename || 'image';
